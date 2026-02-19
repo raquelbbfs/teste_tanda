@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechAgency CRM</title>
+
+    <!-- Bootstrap 5.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">TechAgency CRM</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recursos.html">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="demonstracao.html">Demonstração</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero-section d-flex align-items-center text-center text-white">
+            <div class="container">
+                <h1 class="display-4 fw-bold mb-3">
+                    Gerencie seus clientes com eficiência
+                </h1>
+
+                <p class="lead mb-4">
+                    O TechAgency CRM organiza, automatiza e potencializa suas vendas.
+                </p>
+
+                <!-- FORMULÁRIO -->
+                <form id="demoForm" class="row justify-content-center g-2">
+
+                    <div class="col-md-4 col-10">
+                        <input 
+                            type="email"
+                            id="email"
+                            class="form-control"
+                            placeholder="Digite seu e-mail"
+                            required
+                        >
+                        <div class="invalid-feedback">
+                            Por favor, insira um e-mail válido.
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-10">
+                        <button type="submit" class="btn btn-light w-100 fw-semibold">
+                            Solicitar Demonstração
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+        <!-- ================= FEATURES PREVIEW ================= -->
+        <section class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="mb-4">Por que escolher o TechAgency CRM?</h2>
+
+                <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Gestão Inteligente</h5>
+                                <p class="card-text">
+                                    Centralize informações dos seus clientes em uma única plataforma.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Automação Comercial</h5>
+                                <p class="card-text">
+                                    Reduza tarefas manuais e aumente sua produtividade.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Relatórios Estratégicos</h5>
+                                <p class="card-text">
+                                    Tome decisões baseadas em dados e métricas precisas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="recursos.html" class="btn btn-primary mt-3">
+                    Ver todos os recursos
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">
+                © 2026 TechAgency CRM. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Personalizado -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
